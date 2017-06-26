@@ -1,6 +1,6 @@
 # bf-vue-admin
 
-> Matieral design components for prophetech, which is based on ![vue.js 2.1+](https://vuejs.org/v2/guide/), ![muse-ui](http://www.muse-ui.org/#/install), etc.
+> Matieral design components for prophetech, which is based on [vue.js 2.1+](https://vuejs.org/v2/guide/), [muse-ui](http://www.muse-ui.org/#/install), etc.
 
 ## Build Setup
 
