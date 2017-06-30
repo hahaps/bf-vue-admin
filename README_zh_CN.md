@@ -2,36 +2,36 @@
 
 > Matieral design components for prophetech, which is based on [vue.js 2.1+](https://vuejs.org/v2/guide/), [muse-ui](http://www.muse-ui.org/#/install), etc.
 
-## Build Setup
+## 运行于设置
 
 ``` bash
-# install dependencies
+# 安装依赖
 npm install
 
-# serve with hot reload at localhost:8080
+# 开发时运行， 访问：http://localhost:8080
 npm run dev
 
-# build for production with minification
+# 打包
 npm run build
 
-# build for production and view the bundle analyzer report
+# 打包并输出分析报告
 npm run build --report
 
-# run unit tests
+# 运行单元测试
 npm run unit
 
-# run e2e tests
+# 运行 e2e 测试
 npm run e2e
 
-# run all tests
+# 运行所以测试
 npm test
 ```
 
-## What we do
+## 当前实现功能
 
 ### Admin framework
 
-* To register a new panel group, for example:
+* 注册一个新 panel group, 如:
 
 ```javascript
 /* src/components/panels/virtual/panels.js */
@@ -52,7 +52,7 @@ let dashboard = new Dashboard([
 ])
 ```
 
-* To register a new panel, for example:
+* 注册一个新panel, 如:
 
 ```javascript
 /* src/components/panels/virtual/instances/panel.js */
@@ -76,17 +76,17 @@ export default new Panel('Instances', {
 })
 ```
 
-### Change theme
+### 更改主题
 
-See follow picture:
+详见下图:
 
 ![Change color](/source/change_color.jpeg)
 
 ### Table view
 
-**Attention: Table view is not ready now, and detail documents will post later.**
+**注意: Table view 暂未开发完，详细的使用文档说明稍后会陆续更新.**
 
-To define a table view:
+定义一个 table view:
 
 ```javascript
 <template>
@@ -192,15 +192,15 @@ To define a table view:
 </script>
 ```
 
-See actual effect:
+详细效果如下:
 
 ![Table view](/source/table_view.jpeg)
 
 ### Form view
 
-**Attention: Form view is not ready now, and detail documents will post later.**
+**注意: Form view 暂未开发完，详细的使用文档说明稍后会陆续更新**
 
-To define a form view:
+定义一个Form view:
 
 ```javascript
 <template>
@@ -256,9 +256,9 @@ See actual effect:
 ### Wizard view
 
 
-**Attention: Wizard view is not ready now, and detail documents will post later.**
+**注意: Wizard view 暂未开发完，详细的使用文档说明稍后会陆续更新**
 
-To define a wizard view:
+定义一个wizard view:
 
 ```javascript
 <template>
@@ -370,6 +370,6 @@ To define a wizard view:
 </script>
 ```
 
-See actual effect:
+详细效果如下：
 
 ![Wizard view](/source/wizard_view.jpeg)
