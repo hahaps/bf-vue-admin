@@ -17,11 +17,9 @@
     "animate.css": "^3.5.2",
     "material-design-icons": "^3.0.1",
     "muse-ui": "^2.0.3",
-    "raw-loader": "^0.5.1",
     "vue": "^2.3.3",
     "vue-awesome": "^2.3.1",
     "vue-cookie": "^1.1.4",
-    "vue-material": "^0.7.1",
     "vue-router": "^2.3.1"
   },
   "devDependencies": {
@@ -68,6 +66,7 @@
     "karma-webpack": "^2.0.2",
     "less": "^2.7.2",
     "less-loader": "^4.0.4",
+    "raw-loader": "^0.5.1",
     "lolex": "^1.5.2",
     "mocha": "^3.2.0",
     "nightwatch": "^0.9.12",
